@@ -103,15 +103,15 @@ android:id="@+id/button4"
         android:layout_toEndOf="@+id/button3"
         android:layout_gravity="center_vertical" />
 
+    </LinearLayout>
+
     <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="SAIR"
     android:id="@+id/button5"
-        android:layout_alignTop="@+id/button3"
-        android:layout_toStartOf="@+id/button3"
-        android:layout_gravity="center_vertical" />
-
-</LinearLayout>
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
