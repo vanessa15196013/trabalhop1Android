@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="listatarefas">
+
+
+        <item>Curso</item>
+        <item>Letras</item>
+        <item>Gastronomia</item>
+    </string-array>
+
+    <string-array name="aula">
+
+
+        <item>Matéria</item>
+        <item>Português</item>
+        <item>Molhos</item>
+    </string-array>
+    <string name="title_activity_tarefa">TarefaActivity</string>
+</resources>
+
+
