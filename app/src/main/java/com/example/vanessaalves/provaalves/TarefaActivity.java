@@ -10,4 +10,14 @@ public class TarefaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tarefa);
     }
+
+            botaoMudarTela.setOnClickListener(new OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+
+            Intent trocadorTela = new Intent(PrincipalActivity.this, SegundaTelaActivity.class);
+            startActivity(trocadorTela);
+
+        }
 }

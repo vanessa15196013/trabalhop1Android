@@ -106,4 +106,20 @@ public class LoginActivity extends AppCompatActivity {
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();
+
+        @Override
+        botaoMudarTela.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent trocadorTela = new Intent(PrincipalActivity.this, SegundaTelaActivity.class);
+                startActivity(trocadorTela);
+
+            }
     }
+
+
+    @Override
+    public void onStop() {
+        super.onStop();

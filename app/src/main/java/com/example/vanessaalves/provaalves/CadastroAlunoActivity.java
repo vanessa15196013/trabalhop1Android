@@ -9,5 +9,18 @@ public class CadastroAlunoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_aluno);
+
     }
+
+            botaoMudarTela.setOnClickListener(new OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+
+            Intent trocadorTela = new Intent(PrincipalActivity.this, SegundaTelaActivity.class);
+            startActivity(trocadorTela);
+
+        }
 }
+
+
